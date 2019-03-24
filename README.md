@@ -56,7 +56,7 @@ API Reference
  * roleman.alter_base(rolename, WITH attribute)
    applies the requested WITH attributes via ALTER user.
 
- * roleman.set_password(rolename, password [, valid_until])
+ * roleman.role_set_password(rolename, password [, valid_until])
    Sets a role's password.  If valid_until is not set, it is set until 
    'infinity'
 
